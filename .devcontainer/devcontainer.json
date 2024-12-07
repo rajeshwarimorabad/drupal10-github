@@ -1,0 +1,8 @@
+{
+  "name": "Drupal 10 Dev",
+  "image": "mcr.microsoft.com/devcontainers/php:8.2",
+  "features": {
+    "docker-in-docker": "latest"
+  },
+  "postCreateCommand": "composer create-project drupal/recommended-project . && composer install"
+}
