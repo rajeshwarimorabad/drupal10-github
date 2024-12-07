@@ -1,6 +1,6 @@
 {
   "name": "Drupal 10 Dev",
-  "image": "mcr.microsoft.com/devcontainers/php:8.2",
+  "image": "mcr.microsoft.com/devcontainers/php:8.3",
   "features": {
     "docker-in-docker": "latest"
   },
